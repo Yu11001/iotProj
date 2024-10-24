@@ -6,10 +6,10 @@
 #define sensor1PIN 18 // 1 baht
 
 // WiFi credentials
-const char* ssid = "hy002";
-const char* password = "q11111111";
+const char* ssid = "";
+const char* password = "";
 
-const char* serverName = "http://172.20.10.4/iot/tcrtsensordataupdate.php";
+const char* serverName = "http://myServer/iot/tcrtsensordataupdate.php";
 
 // 计数和金额变量
 int totalSavings = 0;
